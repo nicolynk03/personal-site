@@ -1,0 +1,61 @@
+:root {
+    --backgrond: #F9F0DD;
+    --alt: #454545;
+    --altcolourpair: #E9CB86;
+    --maincolourpair: #8a6819;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: var(--backgrond);
+    color: var(--maincolourpair);
+}
+
+/* navigation bar */
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1.3rem 7%;
+    background-color: var(--alt);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+
+.navbar .logo {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #cb5252;
+    margin-bottom: 0.4rem;
+    margin-right: auto;
+}
+
+.navbar .navbar-nav {
+    margin-right: auto;
+    margin-left: 3rem;
+}
+
+.navbar .navbar-nav a {
+    color: var(--altcolourpair);
+    display: inline-block;
+    font-size: 1.2rem;
+    margin-right: 3rem;
+}
+
+.navbar .navbar-nav a:hover {
+    color: var(--backgrond);
+}
+
+
