@@ -26,7 +26,7 @@ body {
     justify-content: space-around;
     align-items: center;
     padding: 1.3rem 7%;
-    background-color: var(--alt);
+    background-color: rgba(69, 69, 69, 0.9);
     position: fixed;
     top: 0;
     left: 0;
@@ -58,4 +58,31 @@ body {
     color: var(--backgrond);
 }
 
+/* landing page */
+.landing-page {
+    padding-top: 11rem;
+    padding-left: 25em;
+}
 
+.landing-page span {
+    color: #c78e09;
+}
+
+.landing-title {
+    margin-top: 1.6em;
+}
+
+
+
+/* media queries */
+@media all and (max-width: 955px) {
+    .landing-page {
+        padding-top: 11rem;
+        padding-left: 10em;
+    }
+
+    .landing-page p {
+        padding-top: 9px;
+        max-width: 65%;
+    }
+}
