@@ -61,7 +61,11 @@ body {
 /* landing page */
 .landing-page {
     padding-top: 11rem;
-    padding-left: 25em;
+    padding-left: 16em;
+}
+
+.landing-page h3 {
+    font-size: 28px;
 }
 
 .landing-page span {
@@ -71,6 +75,27 @@ body {
 .landing-title {
     margin-top: 1.6em;
 }
+
+.landing-title h1 {
+    font-size: 50px;
+}
+
+.landing-title p {
+    font-size: 20px;
+    max-width: 54%;
+    line-height: 1.4;
+}
+
+.landing-page .profile-image {
+    img {
+        border-radius: 50%;
+        height: auto;
+        width: 20%;
+        margin-left: 50rem;
+        margin-top: -15rem;
+    }
+}
+
 
 
 
@@ -85,4 +110,14 @@ body {
         padding-top: 9px;
         max-width: 65%;
     }
+
+    .landing-page .profile-image {
+    img {
+        border-radius: 50%;
+        height: auto;
+        width: 20%;
+        margin-left: 35rem;
+        margin-top: -9rem;
+    }
+}
 }
