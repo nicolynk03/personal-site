@@ -22,6 +22,7 @@ body {
     font-family: 'Quicksand', sans-serif;
     background-color: var(--backgrond);
     color: var(--maincolourpair);
+    height: 999vh;
 }
 
 /* navigation bar */
@@ -38,12 +39,18 @@ body {
     z-index: 9999;
 }
 
+
 .navbar .logo {
     font-size: 1.3rem;
     font-weight: 500;
     color: #cb5252;
     margin-bottom: 0.4rem;
     margin-right: auto;
+
+    img {
+        height: 40px;
+        cursor: pointer;
+    }
 }
 
 .navbar .navbar-nav {
@@ -64,13 +71,13 @@ body {
 
 /* landing page */
 .landing-page {
-    padding-top: 11rem;
-    padding-left: 16em;
-    padding-right: 2rem;
-    padding-bottom: 2rem;
+    margin-top: 10rem;
+    margin-left: 17rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
 }
 
-.landing-page h3 {
+.landing-page h3, .about-page h3 {
     font-size: 30px;
 }
 
@@ -104,7 +111,7 @@ p {
     }
 }
 
-.landing-contact-button, .cv-button {
+.landing-contact-button, .cv-button, .about-button {
     background-color: var(--alt);
     border: none;
     color: var(--backgrond);
@@ -121,10 +128,25 @@ p {
     margin-left: 14px;
 }
 
-.landing-contact-button:hover , .cv-button:hover {
+.about-button {
+    margin-left: 2px;
+}
+
+.landing-contact-button:hover , .cv-button:hover, .about-button:hover {
     background-color: var(--maincolourpair);
 }
 
+/* about page */
+.about-page {
+    margin-top: 10rem;
+    margin-left: 17rem;
+}
+
+.brief-about p{
+    font-size: 24px;
+    max-width: 80%;
+    line-height: 1.4;
+}
 
 /* media queries */
 @media all and (max-width: 955px) {
