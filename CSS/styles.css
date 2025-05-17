@@ -5,6 +5,10 @@
     --maincolourpair: #8a6819;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -50,7 +54,7 @@ body {
 .navbar .navbar-nav a {
     color: var(--altcolourpair);
     display: inline-block;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     margin-right: 3rem;
 }
 
@@ -62,10 +66,12 @@ body {
 .landing-page {
     padding-top: 11rem;
     padding-left: 16em;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
 }
 
 .landing-page h3 {
-    font-size: 28px;
+    font-size: 30px;
 }
 
 .landing-page span {
@@ -77,16 +83,18 @@ body {
 }
 
 .landing-title h1 {
-    font-size: 50px;
+    font-size: 58px;
 }
 
 .landing-title p {
-    font-size: 20px;
+    font-size: 24px;
     max-width: 54%;
     line-height: 1.4;
 }
 
 .landing-page .profile-image {
+    margin-left: 1rem;
+    margin-top: -1rem;
     img {
         border-radius: 50%;
         height: auto;
@@ -95,7 +103,6 @@ body {
         margin-top: -15rem;
     }
 }
-
 
 
 
