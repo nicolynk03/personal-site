@@ -95,7 +95,7 @@ body {
 
 p {
     font-size: 24px;
-    max-width: 54%;
+    max-width: 62%;
     line-height: 1.5;
 }
 
@@ -143,13 +143,6 @@ p {
     margin-left: 17rem;
 }
 
-.brief-about p{
-    font-size: 24px;
-    max-width: 80%;
-    line-height: 1.4;
-    margin-bottom: 1.5rem;
-}
-
 /* about.html */
 .about-section-background {
     margin-top: 10rem;
@@ -158,6 +151,28 @@ p {
     margin-bottom: 2rem;
 }
 
+.brief-about p{
+    font-size: 24px;
+    max-width: 72%;
+    line-height: 1.4;
+    margin-bottom: 1.5rem;
+}
+
+.about-picture {
+    margin-left: 5rem;
+    margin-top: -22rem;
+    img {
+        border-radius: 35%;
+        height: auto;
+        width: 21%;
+        margin-left: 50rem;
+        margin-top: -10rem;
+    }
+}
+
+#last-row-p {
+    max-width: 96%;
+}
 
 
 
