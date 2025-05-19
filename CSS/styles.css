@@ -77,7 +77,7 @@ body {
     margin-bottom: 2rem;
 }
 
-.landing-page h3, .about-page h3, .about-section-background h3, .currently-learning h3, .current-tools h3 {
+.landing-page h3, .about-page h3, .about-section-background h3, .currently-learning h3, .current-tools h3, .skills h3 {
     font-size: 30px;
 }
 
@@ -140,7 +140,7 @@ p {
 /* index.html */
 .about-page {
     margin-top: 10rem;
-    margin-left: 17rem;
+    margin-left: 15rem;
 }
 
 /* about.html */
@@ -176,6 +176,7 @@ p {
 
 .current-stuff {
     display: inline-block;
+    margin-top: -1rem;
 }
 
 .currently-learning {
@@ -193,8 +194,22 @@ p {
 }
 
 .current-tools {
-    margin-left: 60rem;
-    margin-top: -12.1rem;
+    margin-left: 62rem;
+    margin-top: -14rem;
+}
+
+.skills {
+    margin-left: 47rem;
+    margin-top: 11rem;
+}
+
+.skills-list {
+    margin-top: 4rem;
+    margin-left: -26rem;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
 }
 
 
