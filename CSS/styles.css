@@ -77,7 +77,12 @@ body {
     margin-bottom: 2rem;
 }
 
-.landing-page h3, .about-page h3, .about-section-background h3, .currently-learning h3, .current-tools h3, .skills h3 {
+.landing-page h3,
+.about-page h3,
+.about-section-background h3,
+.currently-learning h3,
+.current-tools h3,
+.skills h3 {
     font-size: 30px;
 }
 
@@ -102,6 +107,7 @@ p {
 .landing-page .profile-image {
     margin-left: 1rem;
     margin-top: -1rem;
+
     img {
         border-radius: 50%;
         height: auto;
@@ -111,7 +117,9 @@ p {
     }
 }
 
-.landing-contact-button, .cv-button, .about-button {
+.landing-contact-button,
+.cv-button,
+.about-button {
     background-color: var(--alt);
     border: none;
     color: var(--backgrond);
@@ -132,7 +140,9 @@ p {
     margin-left: 2px;
 }
 
-.landing-contact-button:hover , .cv-button:hover, .about-button:hover {
+.landing-contact-button:hover,
+.cv-button:hover,
+.about-button:hover {
     background-color: var(--maincolourpair);
 }
 
@@ -151,7 +161,7 @@ p {
     margin-bottom: 2rem;
 }
 
-.brief-about p{
+.brief-about p {
     font-size: 24px;
     max-width: 72%;
     line-height: 1.4;
@@ -161,6 +171,7 @@ p {
 .about-picture {
     margin-left: 5rem;
     margin-top: -22rem;
+
     img {
         border-radius: 35%;
         height: auto;
@@ -184,12 +195,14 @@ p {
     margin-top: 20rem;
 }
 
-.currently-learning-list, .current-tools-list{
+.currently-learning-list,
+.current-tools-list {
     margin-top: 1rem;
     margin-left: 3rem;
 }
 
-.currently-learning-list li, .current-tools-list li{
+.currently-learning-list li,
+.current-tools-list li {
     font-size: 22px;
 }
 
@@ -204,17 +217,31 @@ p {
 }
 
 .skills-list {
-    margin-top: 4rem;
-    margin-left: -26rem;
-    text-align: center;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:space-around;
+    margin-left: -20rem;
+    margin-top: 3rem;
 }
 
+#skill-icon-2 {
+    margin-left: 20.5rem;
+}
 
+.skills-desc {
+    margin-left: -24.5rem;
+}
 
+#skills-desc-2 {
+    margin-left: 18rem;
+    margin-top: -2.3rem;
+}
 
+#skills-desc-3 {
+    margin-top: -2.3rem;
+    margin-left: 46rem;
+}
+
+#skills-header {
+    margin-left: 1.8rem;
+}
 
 
 /* media queries */
@@ -230,12 +257,12 @@ p {
     }
 
     .landing-page .profile-image {
-    img {
-        border-radius: 50%;
-        height: auto;
-        width: 20%;
-        margin-left: 35rem;
-        margin-top: -9rem;
+        img {
+            border-radius: 50%;
+            height: auto;
+            width: 20%;
+            margin-left: 35rem;
+            margin-top: -9rem;
+        }
     }
-}
 }
