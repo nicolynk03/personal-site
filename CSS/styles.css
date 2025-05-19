@@ -28,10 +28,11 @@ body {
 /* navigation bar */
 .navbar {
     display: flex;
+    backdrop-filter: blur(10px);
     justify-content: space-around;
     align-items: center;
-    padding: 1.3rem 7%;
-    background-color: rgba(69, 69, 69, 0.9);
+    padding: 0.5rem 5%;
+    background-color: rgba(69, 69, 69, 0.85);
     position: fixed;
     top: 0;
     left: 0;
