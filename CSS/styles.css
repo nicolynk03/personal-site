@@ -70,12 +70,21 @@ body {
     color: var(--backgrond);
 }
 
+/* container */
+.container {
+    padding: 4rem 6rem;
+}
+
+section {
+    padding: 2rem 2rem;
+}
+
 /* landing page */
 .landing-page {
-    margin-top: 10rem;
-    margin-left: 17rem;
-    margin-right: 2rem;
-    margin-bottom: 2rem;
+    margin-top: 3rem;
+    margin-left: 11rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
 }
 
 .landing-page h3,
@@ -105,9 +114,9 @@ p {
     line-height: 1.5;
 }
 
-.landing-page .profile-image {
+.profile-image {
     margin-left: 1rem;
-    margin-top: -1rem;
+    margin-top: -2rem;
 
     img {
         border-radius: 50%;
@@ -150,8 +159,15 @@ p {
 /* about page */
 /* index.html */
 .about-page {
-    margin-top: 10rem;
-    margin-left: 15rem;
+    margin-top: 0.5rem;
+    margin-left: 11rem;
+}
+
+.brief-about p {
+    font-size: 24px;
+    max-width: 90%;
+    line-height: 1.4;
+    margin-bottom: 1.5rem;
 }
 
 /* about.html */
@@ -162,12 +178,7 @@ p {
     margin-bottom: 2rem;
 }
 
-.brief-about p {
-    font-size: 24px;
-    max-width: 72%;
-    line-height: 1.4;
-    margin-bottom: 1.5rem;
-}
+
 
 .about-picture {
     margin-left: 5rem;
