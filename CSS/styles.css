@@ -203,8 +203,9 @@ p {
 }
 
 .currently-learning {
-    margin-left: 17rem;
-    margin-top: 20rem;
+    margin-left: 6.5rem;
+    margin-top: 14.5rem;
+    margin-right: 2rem;
 }
 
 .currently-learning-list,
@@ -219,8 +220,8 @@ p {
 }
 
 .current-tools {
-    margin-left: 62rem;
-    margin-top: -14rem;
+    margin-left: 55rem;
+    margin-top: -13.8rem;
 }
 
 .skills {
