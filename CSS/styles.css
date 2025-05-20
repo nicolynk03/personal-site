@@ -80,11 +80,13 @@ section {
 }
 
 /* landing page */
-.landing-page {
+.landing-page, .about-page, .about-section-background {
     margin-top: 3rem;
-    margin-left: 11rem;
-    margin-right: 1rem;
+    margin-left: 8rem;
+    margin-right: 3rem;
     margin-bottom: 1rem;
+    padding-left: 4.5rem;
+    padding-right: 4rem;
 }
 
 .landing-page h3,
@@ -110,19 +112,19 @@ section {
 
 p {
     font-size: 24px;
-    max-width: 62%;
+    max-width: 78%;
     line-height: 1.5;
 }
 
 .profile-image {
     margin-left: 1rem;
-    margin-top: -2rem;
+    margin-top: -4rem;
 
     img {
         border-radius: 50%;
         height: auto;
         width: 20%;
-        margin-left: 50rem;
+        margin-left: 46rem;
         margin-top: -15rem;
     }
 }
@@ -142,6 +144,10 @@ p {
     font-size: medium;
 }
 
+.cv-button {
+    margin-top: 4rem;
+}
+
 .landing-contact-button {
     margin-left: 14px;
 }
@@ -159,47 +165,41 @@ p {
 /* about page */
 /* index.html */
 .about-page {
-    margin-top: 0.5rem;
-    margin-left: 11rem;
+    margin-top: 1.5rem;
 }
 
 .brief-about p {
     font-size: 24px;
-    max-width: 90%;
+    max-width: 95%;
     line-height: 1.4;
     margin-bottom: 1.5rem;
 }
 
 /* about.html */
 .about-section-background {
-    margin-top: 10rem;
-    margin-left: 17rem;
-    margin-right: 2rem;
-    margin-bottom: 2rem;
+    margin-left: 2rem;
 }
 
-
-
 .about-picture {
-    margin-left: 5rem;
+    margin-left: 11rem;
     margin-top: -22rem;
 
     img {
         border-radius: 35%;
         height: auto;
-        width: 21%;
+        width: 24%;
         margin-left: 50rem;
-        margin-top: -10rem;
+        margin-top: -7rem;
     }
 }
 
 #last-row-p {
-    max-width: 88%;
+    max-width: 100%;
 }
 
 .current-stuff {
     display: inline-block;
-    margin-top: -1rem;
+    /* margin-top: -1rem; */
 }
 
 .currently-learning {
