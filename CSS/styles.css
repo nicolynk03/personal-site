@@ -80,7 +80,9 @@ section {
 }
 
 /* landing page */
-.landing-page, .about-page, .about-section-background {
+.landing-page,
+.about-page,
+.about-section-background {
     margin-top: 3rem;
     margin-left: 8rem;
     margin-right: 3rem;
@@ -94,7 +96,8 @@ section {
 .about-section-background h3,
 .currently-learning h3,
 .current-tools h3,
-.skills h3 {
+.skills h3,
+.experience h3 {
     font-size: 30px;
 }
 
@@ -202,7 +205,8 @@ p {
     /* margin-top: -1rem; */
 }
 
-.currently-learning {
+.currently-learning,
+.experience {
     margin-left: 6.5rem;
     margin-top: 14.5rem;
     margin-right: 2rem;
@@ -252,8 +256,33 @@ p {
     margin-left: 46rem;
 }
 
-#skills-header {
+#skills-header,
+#experience-header {
     margin-left: 1.8rem;
+}
+
+.experience {
+    margin-top: 3rem;
+}
+
+.experience-card {
+    margin-top: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 2.5rem;
+}
+
+.experience-card h4 {
+    font-size: 1.5rem;
+}
+
+.experience-title h4{
+    display: inline;
+    margin-right: 2.5rem;
+}
+
+.experience-card p{
+    max-width: max-content;
 }
 
 
