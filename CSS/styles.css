@@ -22,7 +22,11 @@ body {
     font-family: 'Quicksand', sans-serif;
     background-color: var(--backgrond);
     color: var(--maincolourpair);
-    height: 999vh;
+    /* height: 999vh; */
+    min-height: 100vh;
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
 }
 
 /* navigation bar */
@@ -276,14 +280,29 @@ p {
     font-size: 1.5rem;
 }
 
-.experience-title h4{
+.experience-title h4 {
     display: inline;
     margin-right: 2.5rem;
 }
 
-.experience-card p{
+.experience-card p {
     max-width: max-content;
 }
+
+
+
+
+footer {
+    margin-top: auto;
+    width: 100%;
+    background-color: var(--alt);
+    color: var(--altcolourpair);
+    font-size: 18px;
+    text-align: center;
+    padding: 5px;
+}
+
+
 
 
 /* media queries */
